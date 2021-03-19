@@ -14,12 +14,11 @@
 body{
     width: 75%;
     margin: auto;
-
 }
 
 header{
-    height: 600px;
-   }
+    height: 550px;
+}
 
 .Title{
     width: 135px;
@@ -38,6 +37,7 @@ header{
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
 .Img{
     background-color:rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -47,13 +47,13 @@ header{
     padding-right: 400px;
     padding-bottom: 100px;
 }
+
 .Container_IMG{
-    height: 500px;
+    height: 450px;
     background-image: url(IMG/banner.jpg);
     background-size: 1100px;
     background-repeat: no-repeat;
     background-position: center;
-   
 }
 
 .Description{
@@ -66,43 +66,97 @@ header{
 }
 
 main{
-    height: 420px;
-    background-color: white;
+    height: 650px;
 }
 
 .Title_2{
-    height: 50px;
-    background-color: thistle;
+    margin-top: 75px;
+    font-size: 30px;
+}
+
+.Subtitle{
+    color: grey;
+    font-size: 20px;
 }
 
 .Container{
     height: 370px;
-    background-color: yellow;
-
 }
 
 .Sidebar_left{
-    height: 370px;
     width: 20%;
-    background-color: turquoise;
     float: left;
+    margin-right: 10px;
+}
+
+.Background{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 200px;
+    width: 100%;
+}
+
+.Img_1{
+    background-image: url(IMG/img-1.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: contain;
+    margin-bottom: 20px;
 }
 
 .Main_content{
-    height: 370px;
-    width: 60%;
-    background-color: yellow;
+    width: 58%;
     float: left;
+    margin-right: 10px;
 }    
 
+.Background_2{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 200px;
+    width: 100%;
+}
+
+.Img_2{
+    background-image: url(IMG/banner-2.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px; 
+    background-position: center;
+}
+
+.Background_3{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 200px;
+    width: 100%;
+}
+
+.Img_3{
+    background-image: url(IMG/img-3.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    background-position: center;
+}   
+
 .Sidebar_right{
-    height: 370px;
+   
     width: 20%;
-    background-color: lightsalmon;
     float: left;
 }
 
+p{
+    color: gray;
+}
+
 footer{
-    height: 25px;
-    background-color: greenyellow;
+    height:50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Heart{
+    color: red;
 }
